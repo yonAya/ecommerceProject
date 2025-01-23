@@ -1,81 +1,51 @@
-# front end
-# Compiled output
-/dist
-/tmp
-/out-tsc
-/bazel-out
+# Node.js
+node_modules/
+dist/
 
-# Node
-node_modules
-/node_modules
-npm-debug.log
-yarn-error.log
+# Angular CLI
+.angular/
+.vscode/
 
-# IDEs and editors
+# Compiled source #
+*.class
+
+# Log files #
+*.log
+logs/
+*.pid
+*.seed
+*.pid.lock
+
+# IDEs and editors #
 .idea/
-.project
-.classpath
-.c9/
-*.launch
-.settings/
+*.iml
 *.sublime-workspace
 
-# Visual Studio Code
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-.history/*
+# Maven specific #
+target/
 
-# Miscellaneous
-/.angular/cache
-.sass-cache/
-/connect.lock
-/coverage
-/libpeerconnection.log
-testem.log
-/typings
+# Temporary files #
+*.tmp
+*.temp
 
-# System files
+# System files #
 .DS_Store
 Thumbs.db
 
-#backend
-HELP.md
-target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+# Environment files #
+.env
+.env.*
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
+# IntelliJ IDEA specific #
 *.ipr
+*.iws
+*.bak
+*.swp
+out/
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+# Build directories #
 build/
-!**/src/main/**/build/
-!**/src/test/**/build/
 
-### VS Code ###
-.vscode/
-
-application.properties
-my-app-config.ts
-
+# Ignore specific files
+02-backend/sb-ecommerce/src/main/resources/application.properties
+03-frontend/angular-ecommerce/src/app/config/my-app-config.ts
